@@ -22,6 +22,11 @@
             height: 200px;
             color: brown;
         }
+
+        /* 后代选择器 id为father的元素下的所有div*/
+        #father div {
+            color: rgb(196, 255, 196);
+        }
     </style>
 </head>
 
@@ -29,6 +34,11 @@
     <p id="id1">段落</p>
 
     <h1 class="class_sel">标题1</h1>
+
+    <div id="father">
+        <h1>aaaa</h1>
+        <div>bbbbb</div>
+    </div>
 </body>
 
 </html>
