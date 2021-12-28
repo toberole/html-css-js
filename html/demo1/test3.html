@@ -10,14 +10,14 @@
     <!-- css直接写在html中 -->
     <style type="text/css">
         /* id选择器 必须以‘#’开头 */
-        #id1{
+        #id1 {
             color: blue;
             width: 100px;
             height: 200px;
         }
 
         /* class 选择器 必须以‘.’开头 */
-        .class_sel{
+        .class_sel {
             width: 100px;
             height: 200px;
             color: brown;
@@ -26,6 +26,13 @@
         /* 后代选择器 id为father的元素下的所有div*/
         #father div {
             color: rgb(196, 255, 196);
+        }
+
+        /* 多选择器 */
+        .aClass #bid h1 {
+            width: 100px;
+            height: 100px;
+            color: blue;
         }
     </style>
 </head>
@@ -39,6 +46,8 @@
         <h1>aaaa</h1>
         <div>bbbbb</div>
     </div>
+
+
 </body>
 
 </html>
